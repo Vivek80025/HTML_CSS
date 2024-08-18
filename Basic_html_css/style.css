@@ -1,0 +1,58 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: antiquewhite;
+    /* by default all container(div) are place in same collomn
+    but display: flex; used to place all div in same row */
+    display: flex;
+    /*both work perfectly only if we use display: flex;
+     these three are used together to place item at centre */
+    align-items: center; /* verticle centre */
+    justify-content: center; /*same as text-align but used for container and text all items */
+}
+div{
+    /* point1-size in % for ractangle shape
+       point2-size in px for square shape
+       point3-we can write paragraph and 
+       head tag in div
+     */ 
+    width: 20%;
+    height: 20%;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     /* it is not use for container */
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#Box1{
+    background-color: hsl(136, 86%, 37%);
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+}
+#Box2{
+    background-color: #160abc;
+}
+#Box3{
+    background-color: #b10d80;
+    border-style: solid;
+    border-width: 3px;
+    /* border-radius: 10px; */
+    /* for square to circle boader radius = 50% */
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+}
+h2{
+    border-style: dotted;
+    border-width: 3px;
+    border-radius: 10px;
+}

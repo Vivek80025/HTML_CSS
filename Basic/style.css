@@ -1,0 +1,31 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{                 /*Boilerplate of CSS*/
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: #b1d4c8;
+}
+h1{
+    color: blueviolet;
+    background-color: #403535;
+    text-align: center;
+    width: 50%;
+    height: 20%;
+    /*order not matter*/
+}
+p{
+    color: #ac1717;
+    background-color: #6da752;
+    text-align: center;
+    width: 50%;
+}
+/*Div means container*/
+div{
+    background-color: aqua;
+    width: 20%;
+    height: 20%;
+}
